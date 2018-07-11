@@ -1,11 +1,13 @@
-import Solution.RemoveDuplicates;
+import Solution.ArrayRotate;
+import Solution.StockAnalysis;
+
 public class Main {
 
     public static void main(String[] args) {
-        RemoveDuplicates solution = new RemoveDuplicates();
-        int[]arrays = new int[]{0,0,1,1,1,2,3,4,4,5};
-        int[] result = solution.removeDuplicates(arrays);
-        for(Object o: result){
+        ArrayRotate solution = new ArrayRotate();
+        int[]arrays = new int[]{1,2};
+        solution.rotate(arrays, 2);
+        for(Object o: arrays){
             System.out.println(o);
         }
 
