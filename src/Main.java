@@ -1,4 +1,5 @@
 import Solution.ArrayRotate;
+import Solution.PlusOne;
 import Solution.SingleNumber;
 import Solution.StockAnalysis;
 
@@ -6,9 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
 //        ArrayRotate solution = new ArrayRotate();
-        SingleNumber solution = new SingleNumber();
-        int[]arrays = new int[]{17,12,5,-6,12,4,17,-5,2,-3,2,4,5,16,-3,-4,15,15,-4,-5,-6};
-        solution.singleNumber(arrays);
+//        SingleNumber solution = new SingleNumber();
+        PlusOne plusOne = new PlusOne();
+        int[]arrays = new int[]{7,2,8,5,0,9,1,2,9,5,3,6,6,7,3,2,8,4,3,7,9,5,7,7,4,7,4,9,4,7,0,1,1,1,7,4,0,0,6};
+        arrays = plusOne.plusOne(arrays);
         for(Object o: arrays){
             System.out.println(o);
         }
