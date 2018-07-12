@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a165df2-3d13-4388-ba82-1c13a7dd838f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCodePractice/Main.class" afterPath="$PROJECT_DIR$/out/production/LeetCodePractice/Main.class" />
+    <list default="true" id="4a165df2-3d13-4388-ba82-1c13a7dd838f" name="Default" comment="有效的数独">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution/IsValidSudoku.java" afterPath="$PROJECT_DIR$/src/Solution/IsValidSudoku.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Solution/TwoSum.java" afterPath="$PROJECT_DIR$/src/Solution/TwoSum.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,26 +50,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="41" column="9" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="method#twoSum#0;class#TwoSum#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsValidSudoku.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsValidSudoku.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Solution/IsValidSudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="166">
+              <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
               <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#120#121#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#isValidSudoku#0;class#IsValidSudoku#0" expanded="false" />
+                <element signature="method#checkBox#0;class#IsValidSudoku#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/Solution/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/Solution/MoveZeroes.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Solution/TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Solution/IsValidSudoku.java" />
+        <option value="$PROJECT_DIR$/src/Solution/TwoSum.java" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531305982667</updated>
       <workItem from="1531305993396" duration="17016000" />
-      <workItem from="1531369938812" duration="5569000" />
+      <workItem from="1531369938812" duration="7182000" />
     </task>
     <task id="LOCAL-00001" summary="Finish Stock Analysis&#10;easy">
       <created>1531313370245</created>
@@ -298,11 +298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531375549867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="两数之和">
+      <created>1531375578734</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1531375578734</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22585000" />
+    <option name="totallyTimeSpent" value="24198000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -310,14 +317,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.4827214" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.48056155" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.5410367" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.51943845" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32897863" sideWeight="0.45896327" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.45896327" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33016628" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -352,7 +359,9 @@
     <MESSAGE value="两个数组的交集" />
     <MESSAGE value="加一" />
     <MESSAGE value="移动0" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动0" />
+    <MESSAGE value="两数之和" />
+    <MESSAGE value="有效的数独" />
+    <option name="LAST_COMMIT_MESSAGE" value="有效的数独" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,24 +609,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution/TwoSum.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution/IsValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="41" column="9" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="166">
+          <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
           <folding>
-            <element signature="method#twoSum#0;class#TwoSum#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#isValidSudoku#0;class#IsValidSudoku#0" expanded="false" />
+            <element signature="method#checkBox#0;class#IsValidSudoku#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution/IsValidSudoku.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#120#121#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
