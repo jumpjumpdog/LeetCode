@@ -1,26 +1,39 @@
-import String.*;
-import com.sun.org.apache.regexp.internal.RE;
+import pingduoduo.BracketMatch;
 
-public class Main {
+import java.util.Arrays;
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-//        ArrayRotate solution = new ArrayRotate();
-//        SingleNumber solution = new SingleNumber();
-//        PlusOne plusOne = new PlusOne();
-//        TwoSum twoSum = new TwoSum();
-//        MoveZeroes moveZeroes = new MoveZeroes();
-//        ImageRotate imageRotate = new ImageRotate();
-//        int[][]arrays = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
-//        imageRotate.rotate(arrays);
-//        for(int i =0;i<arrays.length;i++)
-//        {
-//            for(int j = 0;j<arrays[i].length;j++)
-//                System.out.print(arrays[i][j]);
-//            System.out.println();
-//        }
-//        Reverse reverse = new Reverse();
-//        FirstUniqChar firstUniqChar = new FirstUniqChar();
-        Anagram anagram = new Anagram();
-        System.out.println(anagram.isAnagram("anagram","nagaram"));
+public class Main{
+    public static void main(String[]args){
+        BracketMatch bracketMatch = new BracketMatch();
+
+        Scanner sc = new Scanner(System.in);
+        int num = Integer.parseInt(sc.nextLine().toString().trim());
+        String[]lines = new String [num];
+        int index = 0;
+        while(num-- >0){
+            lines[index++] = sc.nextLine();
+        }
+
+       int sum = 0;
+        //计算si
+        for(int i=0;i<lines.length;i++){
+            if(bracketMatch.singleMatchWithStack(lines[i].toCharArray()))
+                sum++;
+        }
+        //计算si+si,si+sj,sj+si
+        for(int i=0;i<lines.length;i++){
+            for(int j=0;j<lines.length;j++)
+            {
+                if(i==j)
+                    continue;
+                char[]temp = (lines[i]+lines[j]).toCharArray();
+                if(bracketMatch.singleMatchWithStack(temp))
+                    sum++;
+            }
+        }
+
+        System.out.println(sum);
     }
+
 }
