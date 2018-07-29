@@ -1,39 +1,48 @@
-import pingduoduo.BracketMatch;
-
-import java.util.Arrays;
-import java.util.Scanner;
-
+import java.util.*;
+import String.CountAndSay;
 public class Main{
     public static void main(String[]args){
-        BracketMatch bracketMatch = new BracketMatch();
+        CountAndSay countAndSay = new CountAndSay();
+        System.out.println(countAndSay.countAndSay(10));
+//            Set<Integer>set =new HashSet<>();
+//            set.add(1);
+//            set.add(2);
+//            set.add(-1);
+//            for(Integer key:set){
+//                System.out.println(key);
+//            }
+//        Scanner sc = new Scanner(System.in);
+//        String a = sc.nextLine().toString();
 
-        Scanner sc = new Scanner(System.in);
-        int num = Integer.parseInt(sc.nextLine().toString().trim());
-        String[]lines = new String [num];
-        int index = 0;
-        while(num-- >0){
-            lines[index++] = sc.nextLine();
-        }
+//        System.out.println(strStr.strStr("hello","ll"));
 
-       int sum = 0;
-        //计算si
-        for(int i=0;i<lines.length;i++){
-            if(bracketMatch.singleMatchWithStack(lines[i].toCharArray()))
-                sum++;
-        }
-        //计算si+si,si+sj,sj+si
-        for(int i=0;i<lines.length;i++){
-            for(int j=0;j<lines.length;j++)
-            {
-                if(i==j)
-                    continue;
-                char[]temp = (lines[i]+lines[j]).toCharArray();
-                if(bracketMatch.singleMatchWithStack(temp))
-                    sum++;
-            }
-        }
 
-        System.out.println(sum);
+//            Scanner sc = new Scanner(System.in);
+//            String a = sc.nextLine().toString();
+//            String []nums = a.split(" ");
+//            int cars = 0;
+//            int[] weights = new int[nums.length];
+//
+//
+//            HashMap<Integer,Integer>map = new HashMap<>();
+//            for(int i=0;i<nums.length;i++){
+//                int temp = Integer.parseInt(nums[i]);
+//                if(map.keySet().contains(300-temp))
+//                {
+//                    cars++;
+//                    int value = map.get(300-temp);
+//                    value--;
+//                    if(value==0)
+//                        map.remove(300-temp);
+//                    else
+//                        map.put(300-temp,value);
+//                }
+//                map.put(temp,0);
+//            }
+
+            
+
+
     }
 
 }
