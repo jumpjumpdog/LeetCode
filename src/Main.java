@@ -1,17 +1,97 @@
-import java.util.*;
-import java.util.regex.Matcher;
 
-import String.CountAndSay;
-import WangYi.Envelope;
-import WangYi.Sugar;
+import java.util.*;
+
 
 public class Main{
     public static void main(String[]args){
-        //System.out.println(Math.ceil(4.0/3));
-        Sugar sugar = new Sugar();
-        sugar.calculate();
-//        Envelope envelope =new Envelope();
-//        envelope.calculateLines();
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int[]apples = new int[n];
+//        int temp =0;
+//        int[]sum = new int[n];
+//        for(int i=0;i<n;i++)
+//        {
+//            apples[i] = sc.nextInt();
+//            temp = temp + apples[i];
+//            sum[i] = temp;
+//        }
+//        int m = sc.nextInt();
+//        int[] query = new int[m];
+//        for(int i=0;i<m;i++)
+//            query[i] = sc.nextInt();
+//
+//
+//        for(int i=0;i<m;i++){
+//
+//            int mid= 0;
+//            int left = 0;
+//            int right = n - 1;
+//
+//
+//            while(left<right){
+//                 mid= left + (right - left) / 2;
+//                if(sum[mid] >= query[i]) right = mid;//因为是寻找下界，不考虑右边还有没有元素
+//                else if(sum[mid] < query[i]) left = mid+1;
+//            }
+//            query[i] =left+1;
+//
+//        }
+//
+//        Arrays.stream(query).forEach(p->System.out.println(p));
+
+        Scanner sc =  new Scanner(System.in);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int max = 0;
+        int[]scores  = new int[n];
+        int[]status = new int[n];
+
+
+        for(int i=0;i<n;i++)
+            scores[i] = sc.nextInt();
+        for(int i=0;i<n;i++)
+            status[i] = sc.nextInt();
+
+        for(int i=0;i<n-k+1;i++) {
+            int temp = 0;
+            int p = i;
+            while(p>=i+k-1){
+                temp += scores[p];
+                p++;
+            }
+
+//            for (int p = 0; p < n; p++)
+//            {
+//                if((p<i||p>i+k-1)&&status[p]==1)
+//                    temp += scores[p];
+//                else if(p>=i&&p<=i+k-1)
+//
+//                else
+//                    temp += 0;
+//            }
+            max = max>temp?max:temp;
+        }
+        System.out.println(max);
+
+
+
+
+
+
+
+
+
+
+//        CharMatrix charMatrix = new CharMatrix();
+//        charMatrix.process();
+//        wangyigame.Main main = new wangyigame.Main();
+//        main.process();
+//        Scanner sc = new Scanner(System.in);
+//        String[]line = sc.nextLine().split(" ");
+//        Arrays.stream(line).forEach(p -> {
+//            System.out.println(p);
+//            System.out.println("===========");
+//        });
 //        CountAndSay countAndSay = new CountAndSay();
 //        System.out.println(countAndSay.countAndSay(10));
 //            Set<Integer>set =new HashSet<>();
