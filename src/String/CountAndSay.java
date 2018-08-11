@@ -1,12 +1,9 @@
 package String;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Set;
-
 public class CountAndSay {
     public String countAndSay(int n) {
         String result = "1";
+
         for(int i=1;i<n;i++){
             //start标记当前并说的开始位置
             int start = 0,index=0;
