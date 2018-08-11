@@ -1,9 +1,19 @@
 import java.util.*;
+import java.util.regex.Matcher;
+
 import String.CountAndSay;
+import WangYi.Envelope;
+import WangYi.Sugar;
+
 public class Main{
     public static void main(String[]args){
-        CountAndSay countAndSay = new CountAndSay();
-        System.out.println(countAndSay.countAndSay(10));
+        //System.out.println(Math.ceil(4.0/3));
+        Sugar sugar = new Sugar();
+        sugar.calculate();
+//        Envelope envelope =new Envelope();
+//        envelope.calculateLines();
+//        CountAndSay countAndSay = new CountAndSay();
+//        System.out.println(countAndSay.countAndSay(10));
 //            Set<Integer>set =new HashSet<>();
 //            set.add(1);
 //            set.add(2);
